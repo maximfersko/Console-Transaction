@@ -25,15 +25,6 @@ public class TransactionLinkedList implements TransactionList {
     
     public TransactionLinkedList() {}
 
-    // public Transaction[] getTranscactionsAllUsers() {
-    //     Transaction[] result = new Transaction[size];
-    //     int i = 0;
-    //     for (Node iter = head; iter != null; iter = iter.next) {
-    //         result[i++] = iter.data;
-    //     }
-    //     return result;
-    // }
-
     @Override
     public void addTransaction(Transaction transaction) {
         Node elm = new Node(transaction);
